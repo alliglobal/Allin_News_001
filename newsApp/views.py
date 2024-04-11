@@ -9,9 +9,9 @@ import json
 from newsApp import models, forms
 def context_data():
     context = {
-        'site_name': 'Simple News Portal',
+        'site_name': 'Allin News Crypto',
         'page' : 'home',
-        'page_title' : 'News Portal',
+        'page_title' : 'News Crypto Portal',
         'categories' : models.Category.objects.filter(status = 1).all(),
     }
     return context

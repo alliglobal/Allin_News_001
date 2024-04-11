@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['52.221.184.8',
                  'ec2-52-221-184-8.ap-southeast-1.compute.amazonaws.com',
                  'cafecoin.xyz',
-                 'cafecoin.vn']
+                 'cafecoin.vn',
+                 '127.0.0.1']
 
 
 # Application definition
@@ -120,9 +121,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_ROOT = [ 
-    BASE_DIR / "static",
-    ]
+# STATIC_ROOT = [ 
+#     BASE_DIR / "static",
+#     ]
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [ 
