@@ -46,7 +46,7 @@ img {
     transition-duration: 500ms;
     text-decoration: none;
     outline: none;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 400;
     color: #232323;
     display: inline-block; }
@@ -55,7 +55,7 @@ img {
       transition-duration: 500ms;
       text-decoration: none;
       outline: none;
-      font-size: 14px;
+      font-size: 24px;
       font-weight: 400;
       color: #1abc9c; }
   .classy-nav-container.classy-sticky {
@@ -153,7 +153,7 @@ img {
 .classynav ul li.has-down > a:after {
   font-family: 'classyfonts';
   content: "\e900";
-  font-size: 12px;
+  font-size: 32px;
   color: #000000;
   padding-left: 5px;
   -webkit-transition-duration: 500ms;
