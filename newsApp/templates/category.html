@@ -18,7 +18,7 @@
 
                         <!-- Blog Content -->
                         <div class="blog-content">
-                            <span class="post-date">{{post.date_created|date:'M d, Y'}}</span>
+                            {% comment %} <span class="post-date">{{post.date_created|date:'M d, Y'}}</span> {% endcomment %}
                             <a href="{% url 'view-post' post.pk %}" class="post-title">{{post.title}}</a>
                             <a href="#" class="post-author">By {{post.user.username}}</a>
                             <p>{{post.short_description|truncatechars:100}}</p>
@@ -51,7 +51,7 @@
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
-                                    <span class="post-date">{{lpost.date_created|date:"M d, Y"}}</span>
+                                    {% comment %} <span class="post-date">{{lpost.date_created|date:"M d, Y"}}</span> {% endcomment %}
                                     <a href="{% url 'view-post' lpost.pk %}" class="post-title">{{lpost.title}}</a>
                                 </div>
                             </div>
